@@ -10,8 +10,8 @@ function start() {
  ballY = Math.floor(Math.random() * 500), 
  ballR = Math.floor(Math.random() * 100);
 
- canvas.width = 480;
- canvas.height = 320;
+ canvas.width = 900;
+ canvas.height = 900;
 ctx.fillstyle = 'black';
 ctx.beginPath();
 ctx.arc(ballX, ballY, ballR, 0, Math.PI * 2 , true);
